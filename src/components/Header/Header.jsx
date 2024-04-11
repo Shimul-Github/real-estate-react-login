@@ -2,13 +2,16 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { MdCallEnd } from "react-icons/md";
 import logo from '../../../src/assets/logo.png'
+import userPic from '../../../src/assets/user.png'
+// import { FaUser } from "react-icons/fa";
+
 
 
 const Header = () => {
     const navLinks = <>
-        <li><NavLink>Home</NavLink></li>
-        <li><NavLink>Update Profile</NavLink></li>
-        <li><NavLink>User Profile</NavLink></li>
+        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/update-profile'>Update Profile</NavLink></li>
+        <li><NavLink to='/user-profile'>User Profile</NavLink></li>
 
     </>
     return (
@@ -46,11 +49,14 @@ const Header = () => {
 
                     <div className="avatar offline">
                         <div className="w-12 rounded-full">
-                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                            <img src={userPic} />
+                            {/* <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" /> */}
+                            {/* <FaUser className='max-w-28'></FaUser> */}
                         </div>
                     </div>
-
-                    <button className='btn bg-[#fb6a19] text-white font-bold'>Log Out</button>
+                     <Link>   
+                    <button className='btn bg-[#fb6a19] text-white font-bold'>Log In</button>
+                    </Link>
 
                     <div className='flex flex-col justify-center items-center relative gap-2'>
                         <MdCallEnd className='text-red-700 font-extraboldbold text-4xl absolute top-6'></MdCallEnd>
