@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "name": "Office buildings",
+      "image": "office_building.jpg",
+      "estate_title": "Modern Office Complex",
+      "segment_name": "Commercial",
+      "description": "State-of-the-art office space in the heart of the business district.",
+      "price": 5000000,
+      "status": "sale",
+      "area_in_sqft": 10000,
+      "location": "Downtown Business District",
+      "facilities": ["meeting rooms", "reception area", "parking"]
+    },
+    {
+      "id": 2,
+      "name": "Retail spaces",
+      "image": "retail_space.jpg",
+      "estate_title": "Prime Retail Space",
+      "segment_name": "Commercial",
+      "description": "Highly visible retail space in a bustling shopping mall.",
+      "price": 1000000,
+      "status": "rent",
+      "area_in_sqft": 2000,
+      "location": "Shopping Mall",
+      "facilities": ["storefront", "storage area", "restroom"]
+    },
+    {
+      "id": 3,
+      "name": "Warehouses",
+      "image": "warehouse.jpg",
+      "estate_title": "Large Warehouse Facility",
+      "segment_name": "Industrial",
+      "description": "Spacious warehouse with easy access for logistics.",
+      "price": 2000000,
+      "status": "sale",
+      "area_in_sqft": 50000,
+      "location": "Industrial Park",
+      "facilities": ["loading dock", "high ceilings", "office space"]
+    },
+    {
+      "id": 4,
+      "name": "Industrial facilities",
+      "image": "industrial_facility.jpg",
+      "estate_title": "Manufacturing Plant",
+      "segment_name": "Industrial",
+      "description": "Fully equipped manufacturing facility with ample production space.",
+      "price": 3000000,
+      "status": "sale",
+      "area_in_sqft": 75000,
+      "location": "Industrial Zone",
+      "facilities": ["production area", "storage rooms", "office suites"]
+    },
+    {
+      "id": 5,
+      "name": "Restaurants",
+      "image": "restaurant.jpg",
+      "estate_title": "Fine Dining Restaurant",
+      "segment_name": "Commercial",
+      "description": "Elegant restaurant space ideal for fine dining experiences.",
+      "price": 800000,
+      "status": "sale",
+      "area_in_sqft": 3000,
+      "location": "City Center",
+      "facilities": ["dining area", "kitchen", "bar"]
+    },
+    {
+      "id": 6,
+      "name": "Entertainment venues",
+      "image": "entertainment_venue.jpg",
+      "estate_title": "Multiplex Cinema",
+      "segment_name": "Commercial",
+      "description": "State-of-the-art cinema complex with multiple screens.",
+      "price": 15000000,
+      "status": "sale",
+      "area_in_sqft": 25000,
+      "location": "Entertainment District",
+      "facilities": ["theater rooms", "concession stands", "arcade"]
+    }
+  ]
+  
