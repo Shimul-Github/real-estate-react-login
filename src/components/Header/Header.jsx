@@ -12,6 +12,7 @@ const Header = () => {
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/update-profile'>Update Profile</NavLink></li>
         <li><NavLink to='/user-profile'>User Profile</NavLink></li>
+        <li><NavLink to='/login'>Login</NavLink></li>
 
     </>
     return (
@@ -54,7 +55,7 @@ const Header = () => {
                             {/* <FaUser className='max-w-28'></FaUser> */}
                         </div>
                     </div>
-                     <Link>   
+                     <Link to='/login'>   
                     <button className='btn bg-[#fb6a19] text-white font-bold'>Log In</button>
                     </Link>
 

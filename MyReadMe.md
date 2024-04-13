@@ -1,7 +1,7 @@
 Name:project-commercial-real-estate-react
 
 
-1.PrivateGit Link: https://github.com/programming-hero-web-course-4/b9a9-real-estate-Shimul-Github
+1.PrivateGit Link: 
 
 
 2.Live Site Link: http://localhost:5173/
